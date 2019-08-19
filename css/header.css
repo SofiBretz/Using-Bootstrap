@@ -1,0 +1,96 @@
+body {
+  font-size: 15px;
+  line-height: 20px;
+  background-color: #f4f5f6;
+  color: #333;
+  font-family: "Arial", monospace;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  display: block;
+  color: #fff;
+  border-bottom: 2px solid #f4f5f6;
+}
+
+#headerPage {
+  z-index: 10;
+  position: relative;
+}
+
+#container {
+  background-color: #f72210;
+  margin-right: 0;
+  margin-left: 0;
+  padding: 15px 0 15px 30px;
+}
+
+.align-items-end {
+  -ms-flex-align: end !important;
+  align-items: flex-end !important;
+}
+
+header .col {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+}
+
+#headerTopMedium {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  padding: 10px 15px;
+  left: 40%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: middle;
+  border-style: none;
+  height: 47px;
+  width: 20%;
+}
+
+.brand svg {
+  fill: white;
+  font-size: 15px;
+}
+
+#headerTopRight {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#headerTopRight a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.text-right {
+    text-align: right!important;
+}
+
+.button {
+  padding: 3px 10px;
+  background-color: #fff;
+  color: #f72210;
+  border-radius: 0;
+}
+
+.button a {
+  text-align: center;
+  text-decoration-color: rgb(247, 34, 16);
+  font-size: 16px;
+}

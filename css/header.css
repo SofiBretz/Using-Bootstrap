@@ -6,6 +6,11 @@ body {
   font-family: "Arial", monospace;
 }
 
+.outContainer {
+  margin: 0 20px;
+  background-color: #fff;
+}
+
 header {
   margin: 0;
   padding: 0;
@@ -17,13 +22,13 @@ header {
 #headerPage {
   z-index: 10;
   position: relative;
+  border: solid black 1px;
 }
 
 #container {
   background-color: #f72210;
-  margin-right: 0;
-  margin-left: 0;
-  padding: 15px 0 15px 30px;
+  padding: 30px 0 40px 30px;
+    border: solid green 1px;
 }
 
 .align-items-end {
@@ -47,7 +52,7 @@ header .col {
 #headerTopMedium {
   position: absolute;
   z-index: 3;
-  top: 0;
+  top: 10px;
   padding: 10px 15px;
   left: 40%;
   padding-top: 10px;
@@ -55,7 +60,8 @@ header .col {
   vertical-align: middle;
   border-style: none;
   height: 47px;
-  width: 20%;
+  width: 28%;
+    border: solid blue 1px;
 }
 
 .brand svg {
@@ -78,8 +84,12 @@ header .col {
   text-transform: uppercase;
 }
 
+#headerTopRight a:hover {
+  text-decoration: none;
+}
+
 .text-right {
-    text-align: right!important;
+  text-align: right!important;
 }
 
 .button {
@@ -89,8 +99,26 @@ header .col {
   border-radius: 0;
 }
 
-.button a {
-  text-align: center;
-  text-decoration-color: rgb(247, 34, 16);
-  font-size: 16px;
+.navBar {
+    max-width: 95%;
+}
+
+.navBar a {
+    font-size: 1.1rem;
+}
+
+.navItem {
+    line-height: 0.5;
+    margin: 15px 0;
+    padding: 0;
+    border-right: 1px solid darkgray;
+    flex: auto;
+    text-align: center;
+}
+
+.search {
+    margin-right: 5px;
+    color: #999;
+    margin-right: 5px;
+    vertical-align: middle;
 }

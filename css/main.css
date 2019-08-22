@@ -119,7 +119,7 @@
     border-top: none;
 }
 
-.newsletter {
+.signUpForNewsletter {
     width: 90%;
     padding: 25px 20px 20px 20px;
     background-color: #f4f5f6;
@@ -127,11 +127,18 @@
     margin-top: 30px;
 }
 
-.newsletter img {
+.signUpForNewsletter .icon {
     margin-right: 10px;
+    flex: none;
+    display: block;
+    width: 29px;
+    height: 28px;
+    background: url("https://g.newsweek.com/www/images/logo-n1.svg") center/contain no-repeat #f72210;
+    margin-right: 10px;
+    float: left;
 }
 
-.newsletter .btn {
+.signUpForNewsletter .btn {
     background-color: #666;
     border-radius: 0;
     margin: 5px 0;
@@ -141,25 +148,108 @@
     font-weight: bold;
 }
 
-.newsletter span {
+.signUpForNewsletter span {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.1rem;
-    line-height: 0;
+    line-height: 25px;
     color: #333;
     vertical-align: top;
 }
 
-.newsletter a {
+.signUpForNewsletter a {
     font-size: 0.9rem;
     color: #333;
 }
 
-.newsletter a:hover {
+.signUpForNewsletter a:hover {
     text-decoration: none;
 }
 
 .more-stories, #sticky-wrapper {
     position: sticky;
     top: 0;
+}
+
+/* Magazine Section */
+
+.iconMagazine {
+    margin-right: 10px;
+    flex: none;
+    display: block;
+    width: 29px;
+    height: 28px;
+    background: url("https://g.newsweek.com/www/images/logo-n1.svg") center/contain no-repeat #f72210;
+    margin-right: 10px;
+}
+
+.magazine-cta {
+    background-color: #f4f5f6;
+    padding: 10px;
+}
+
+.magazine-cta a {
+    text-transform: uppercase;
+}
+
+.magazine .label {
+    text-align: center;
+}
+
+.magazine .label img {
+    width: auto;
+    height: auto;
+}
+
+.magazine .label span {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.magazine hr {
+    border-top: 1px solid #e5e5e5;
+    margin-top: 10px;
+}
+
+.magazine img {
+    width: 100%;
+    height: auto;
+}
+
+.magazine .card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.magazine .category {
+    padding: 10px 0;
+}
+
+.magazine .category span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.magazine .category span:first-child {
+    background-color: #f72210;
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 3px 6px;
+    margin-right: 5px;
+}
+
+.magazine .category span:last-child {
+    color: #f72210;
+}
+
+.magazine .headline a {
+    font-size: 1.2rem;
+}
+
+.magazine .headline a:hover {
+    text-decoration-color: #f72210;
+    color: #000;
 }

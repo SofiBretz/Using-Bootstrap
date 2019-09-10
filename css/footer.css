@@ -21,6 +21,20 @@ footer .social li {
     margin: 0 5px;
 }
 
+@media (min-width: 768px) {
+  footer .social li {
+      display: inline-block;
+      margin: 0 2px;
+      font-size: 12px;
+  }
+
+  strong {
+      font-weight: bold;
+      color: #666666;
+      margin-left: 10px;
+  }
+}
+
 footer ul:last-child {
     margin-top: 5px;
 }
@@ -42,4 +56,15 @@ footer .nav-link {
 footer ul li a {
     font-size: 0.9rem;
     font-weight: normal;
+}
+
+
+span {
+    margin-bottom: 50px;
+    margin-right:15px;
+}
+
+strong {
+    font-weight: bold;
+    color: #666666;
 }

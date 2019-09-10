@@ -229,7 +229,7 @@ body a {
     text-decoration: none;
 }
 
-.more-stories, #sticky-wrapper {
+#sticky-wrapper {
     position: sticky;
     top: 0;
 }
@@ -273,7 +273,7 @@ body a {
     height: auto;
 }
 
-.magazine .card-img-top {
+.magazine .case-img-top {
     width: 100%;
     height: auto;
 }
@@ -299,25 +299,25 @@ body a {
     color: #f72210;
 }
 
-.magazine .headline a {
+.magazine .caption a {
     font-size: 1.2rem;
 }
 
-.magazine .headline a:hover {
+.magazine .caption a:hover {
     text-decoration-color: #f72210;
     color: #000;
 }
 
-.editors-pick .card-img-top {
+.editors-pick .case-img-top {
     width: 100%;
     height: auto;;
 }
 
-.editors-pick .headline {
+.editors-pick .caption {
     margin: 10px 0;
 }
 
-.editors-pick .headline a {
+.editors-pick .caption a {
     font-size: 1.3rem;
     line-height: 1;
 }
@@ -327,29 +327,29 @@ body a {
     line-height: 1.3;
 }
 
-.slideshows .headline {
+.slideshows .caption {
     margin: 10px 0;
 }
 
-.slideshows .headline a {
+.slideshows .caption a {
     font-size: 1.2rem;
     line-height: 1;
 }
 
-.news-categories h2 {
+.categories h2 {
     text-transform: uppercase;
     font-size: 1.3rem;
 }
 
-.news-categories h2 a {
+.categories h2 a {
     color: #f72210;
 }
 
-.news-categories h2 a:hover {
+.categories h2 a:hover {
     text-decoration: none;
 }
 
-.news-categories .list-group-item {
+.categories .list-group-item {
     border: 1px solid #e5e5e5;
     border-left: 0;
     border-right: 0;
@@ -358,22 +358,22 @@ body a {
     line-height: 1.2;
 }
 
-.news-categories .list-group-item:first-child {
+.categories .list-group-item:first-child {
     padding-top: 0;
     border-top: 0;
 }
 
-.news-categories .list-group-item:last-child {
+.categories .list-group-item:last-child {
     padding-bottom: 0;
     border-bottom: 0;
 }
 
-.news-categories .list-img {
+.categories .list-img {
     width: 30%;
     margin-right: 10px;
 }
 
-.news-categories .list-group-item a:hover {
+.categories .list-group-item a:hover {
    text-decoration: none;
    color: #f72210;
 }

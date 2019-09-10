@@ -12,7 +12,7 @@ body {
 }
 
 @media screen and (max-width: 1326px) {
-    .outer-container {
+    .outContainer {
         margin: 0;
     }
 

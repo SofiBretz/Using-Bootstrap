@@ -1,3 +1,5 @@
+/* Body */
+
 body {
     background-color: #f4f5f6;
 }
@@ -26,7 +28,7 @@ a {
     font-weight: bold;
 }
 
-/* Header Styles */
+/* Header */
 
 header {
     color: #fff;
@@ -48,6 +50,7 @@ header .col {
 .img-logo svg {
     fill: white;
 }
+
 .link-container a {
     font-size: 1rem;
     font-weight: bold;

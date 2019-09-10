@@ -63,6 +63,26 @@ body a {
   color: #999999;
 }
 
+@media (min-width: 768px) {
+.culture-item {
+    width: 50%;
+  }
+}
+.flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  div {
+    display: block;
+  }
+
+.culture-item {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 240.563px;
+    height: 478px;
+  }
+
 .culture-item img {
     display: block;
     background-color: #f0f0f0;

@@ -256,18 +256,23 @@ body a {
 
 /* Magazine Section */
 
-
-.magazine-cta {
+.magazine-mainImage {
     background-color: #f4f5f6;
     padding: 10px;
 }
 
-.magazine-cta a {
+.magazine-mainImage a {
     text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.bigMainImage {
+  margin-top: 30px;
 }
 
 .magazine .label {
     text-align: center;
+    margin-top:50px;
 }
 
 .magazine .label img {

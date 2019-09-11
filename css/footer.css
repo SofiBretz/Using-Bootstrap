@@ -58,6 +58,9 @@ footer ul li a {
     font-weight: normal;
 }
 
+small {
+  color: #666666;
+}
 
 span {
     margin-bottom: 50px;

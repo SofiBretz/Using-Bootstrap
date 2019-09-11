@@ -1,92 +1,92 @@
 @media (max-width: 960px) {
   footer .social ul {
-      display: inline-block;
-      margin: 0 2px;
-      font-size: 10px;
+    display: inline-block;
+    margin: 0 2px;
+    font-size: 10px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 960px) {
   footer .social ul {
-      display: inline-block;
-      margin: 0 2px;
-      font-size: 10px;
+    display: inline-block;
+    margin: 0 2px;
+    font-size: 10px;
   }
 }
 
-  @media (max-width: 720px) {
+@media (max-width: 720px) {
   small {
     text-align: left;
   }
 
   footer .social {
-      text-align: left;
+    text-align: left;
   }
 }
 
 footer {
-    padding: 20px 30px;
-    border-top: 2px solid #f4f5f6;
+  padding: 20px 30px;
+  border-top: 2px solid #f4f5f6;
 }
 
 footer small {
-    vertical-align: bottom;
+  vertical-align: bottom;
 }
 
 footer ul {
-    list-style: none;
-    margin: 0;
+  list-style: none;
+  margin: 0;
 }
 
 footer .social {
-    text-align: right;
+  text-align: right;
 }
 
 footer .social li {
-    display: inline-block;
-    margin: 0 5px;
-}
-
-  strong {
-      font-weight: bold;
-      color: #666666;
-      margin-left: 10px;
-  }
-}
-
-footer ul:last-child {
-    margin-top: 5px;
-}
-
-footer span {
-    vertical-align: top;
-}
-
-footer nav {
-    display: inline-block;
-}
-
-footer .nav-link {
-    padding: 0 10px;
-    border-right: 1px solid #d9d9d9;
-    color: #666;
-}
-
-footer ul li a {
-    font-size: 0.9rem;
-    font-weight: normal;
-}
-
-small {
-  color: #666666;
-}
-
-span {
-    margin-bottom: 50px;
-    margin-right:15px;
+  display: inline-block;
+  margin: 0 5px;
 }
 
 strong {
-    font-weight: bold;
-    color: #666666;
+  font-weight: bold;
+  color: #666;
+  margin-left: 10px;
+}
+
+footer ul:last-child {
+  margin-top: 5px;
+}
+
+footer span {
+  vertical-align: top;
+}
+
+footer nav {
+  display: inline-block;
+}
+
+footer .nav-link {
+  padding: 0 10px;
+  border-right: 1px solid #d9d9d9;
+  color: #666;
+}
+
+footer ul li a {
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+small {
+  color: #666;
+}
+
+span {
+  margin-bottom: 50px;
+  margin-right: 15px;
+}
+
+strong {
+  font-weight: bold;
+  color: #666;
+}
 }

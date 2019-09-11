@@ -96,7 +96,7 @@ body a {
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #999999;
+  color: #999;
   padding: 10px;
   font-size: 16px;
   text-decoration: none;
@@ -104,7 +104,7 @@ body a {
 
 .block-title a:hover {
   text-decoration: none;
-  color: #999999;
+  color: #999;
 }
 
 .flex-wrap {
@@ -255,7 +255,7 @@ div {
   font-size: 0.8rem;
 }
 
-/*@media (max-width: 720px) {
+/* @media (max-width: 720px) {
   .latestImage img {
       background-color: yellow;
   }
@@ -293,7 +293,8 @@ div {
   display: block;
   width: 29px;
   height: 28px;
-  background: url("https://g.newsweek.com/www/images/logo-n1.svg")
+  background:
+    url("https://g.newsweek.com/www/images/logo-n1.svg")
     center/contain no-repeat #f72210;
   margin-right: 10px;
   float: left;
@@ -363,7 +364,7 @@ div {
   font-weight: bold;
   vertical-align: middle;
   margin-left: 10px;
-  color: #333333;
+  color: #333;
   font-size: 18px;
 }
 
@@ -515,6 +516,7 @@ div {
   font-size: 1.3rem;
   margin-bottom: 20px;
 }
+
 #subscribe-box h4 {
   font-weight: bold;
 }

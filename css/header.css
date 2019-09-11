@@ -138,7 +138,7 @@ header .imgIcon {
     padding: 1px 6px;
   }
 
-  .link-container:after {
+  .link-container::after {
     content: url("images/icons/nav.png");
     vertical-align: middle;
   }

@@ -24,35 +24,6 @@ body a {
   order: 3;
 }
 
-@media (max-width: 720px) {
-  .order-md-1 {
-    -ms-flex-order: 1;
-    order: 1;
-  }
-
-  .order-md-2 {
-    -ms-flex-order: 2;
-    order: 2;
-  }
-
-  .order-md-3 {
-    -ms-flex-order: 3;
-    order: 3;
-  }
-
-  .col-md-5 {
-    -ms-flex: 0 0 41.666667%;
-    flex: 0 0 41.666667%;
-    max-width: 41.666667%;
-  }
-
-  .col-md-7 {
-    -ms-flex: 0 0 58.333333%;
-    flex: 0 0 58.333333%;
-    max-width: 58.333333%;
-  }
-}
-
 .box {
   border: none;
   margin-bottom: 20px;
@@ -114,29 +85,16 @@ div {
   display: block;
 }
 
-@media (max-width: 720px) {
-  .culture-stories {
-    max-width: 100%;
-  }
-
-  .culture-item {
-    width: 50%;
-    margin-bottom: 10px;
-  }
-}
-
 .culture-item {
   padding-left: 10px;
   padding-right: 10px;
   width: 240.563px;
-  height: 460px;
 }
 
 .culture-item img {
-  display: block;
   background-color: #f0f0f0;
   width: 100%;
-  margin-top: 5px;
+  margin: 5px;
 }
 
 .culture-item .title {
@@ -153,6 +111,7 @@ div {
 .culture-item .summary {
   font-size: 15px;
   color: #272727;
+  height: max-content;
 }
 
 .culture-item .tags {
@@ -172,10 +131,8 @@ div {
   margin-top: 5px;
 }
 
-@media (max-width: 720px) {
-  .moreStoriesContainer {
-    margin-top: 10px;
-  }
+.moreStoriesContainer {
+  margin-top: 10px;
 }
 
 .more-stories li,
@@ -220,12 +177,6 @@ div {
   color: #f72210;
 }
 
-@media (max-width: 991px) and (min-width: 768px) {
-  .opinion {
-    position: static !important;
-  }
-}
-
 .opinions li {
   margin-bottom: 0;
   border-bottom: 1px solid #d9d9d9;
@@ -253,13 +204,6 @@ div {
   color: #555;
   font-size: 0.8rem;
 }
-
-/* @media (max-width: 720px) {
-  .latestImage img {
-      background-color: yellow;
-  }
-}
-*/
 
 .latestNewsContainer {
   max-width: 100%;
@@ -439,17 +383,6 @@ div {
   line-height: 1;
 }
 
-@media (max-width: 720px) {
-  .categories .caption {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  .categories .list-group li {
-    margin-top: 10px;
-  }
-}
-
 .categories h2 a {
   font-size: 1.3rem;
   color: #f72210;
@@ -552,4 +485,69 @@ div {
   font-size: 1rem;
   color: #f72210;
   font-weight: bold;
+}
+
+/* media */
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .opinion {
+    position: static !important;
+  }
+
+  .culture-item {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .order-md-1 {
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .order-md-2 {
+    -ms-flex-order: 2;
+    order: 2;
+  }
+
+  .order-md-3 {
+    -ms-flex-order: 3;
+    order: 3;
+  }
+
+  .col-md-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+
+  .col-md-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+
+  .culture-stories {
+    max-width: 100%;
+  }
+
+  .culture-item {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+  .categories .caption {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .categories .list-group li {
+    margin-top: 10px;
+  }
+
+  .moreStoriesContainer {
+    margin-top: 10px;
+  }
 }

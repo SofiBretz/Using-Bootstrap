@@ -1,29 +1,3 @@
-@media (max-width: 960px) {
-  footer .social ul {
-    display: inline-block;
-    margin: 0 2px;
-    font-size: 10px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 960px) {
-  footer .social ul {
-    display: inline-block;
-    margin: 0 2px;
-    font-size: 10px;
-  }
-}
-
-@media (max-width: 720px) {
-  small {
-    text-align: left;
-  }
-
-  footer .social {
-    text-align: left;
-  }
-}
-
 footer {
   padding: 20px 30px;
   border-top: 2px solid #f4f5f6;
@@ -83,4 +57,39 @@ small {
 span {
   margin-bottom: 50px;
   margin-right: 15px;
+}
+
+@media (max-width: 960px) {
+  footer .social ul {
+    display: inline-block;
+    margin: 0 2px;
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+  footer .social ul {
+    display: inline-block;
+    margin: 0 2px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  small {
+    text-align: left;
+    display: block;
+  }
+
+  footer .social ul {
+    float: left;
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+  }
+
+  footer .social {
+    display: block;
+  }
 }

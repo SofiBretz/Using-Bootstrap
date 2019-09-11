@@ -1,90 +1,90 @@
 /* Body */
 
 body {
-    background-color: #f4f5f6;
+  background-color: #f4f5f6;
 }
 
 .outContainer {
-    margin: 0 20px;
-    background-color: #fff;
+  margin: 0 20px;
+  background-color: #fff;
 }
 
 .innerContainer {
-    margin: 15px 30px;
+  margin: 15px 30px;
 }
 
 @media screen and (max-width: 1326px) {
-    .outContainer {
-        margin: 0;
-    }
+  .outContainer {
+    margin: 0;
+  }
 
-    .inner-container {
-        margin: 15px;
-    }
+  .inner-container {
+    margin: 15px;
+  }
 }
 
 a {
-    color: #000;
-    font-weight: bold;
+  color: #000;
+  font-weight: bold;
 }
 
 /* Header */
 
 header {
-    color: #fff;
-    border-bottom: 2px solid #f4f5f6;
+  color: #fff;
+  border-bottom: 2px solid #f4f5f6;
 }
 
 header > .row {
-    background-color: #f72210;
-    margin-right: 0;
-    margin-left: 0;
-    padding: 15px 0 15px 30px;
+  background-color: #f72210;
+  margin-right: 0;
+  margin-left: 0;
+  padding: 15px 0 15px 30px;
 }
 
 header .col {
-    padding-right: 0;
-    padding-left: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .img-logo svg {
-    fill: white;
+  fill: white;
 }
 
 .link-container a {
-    font-size: 1rem;
-    font-weight: bold;
-    margin-right: 10px;
-    color: #fff;
-    text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .link-container a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .link-container .btn {
-    padding: 3px 10px;
-    background-color: #fff;
-    color: #f72210;
-    border-radius: 0;
+  padding: 3px 10px;
+  background-color: #fff;
+  color: #f72210;
+  border-radius: 0;
 }
 
 header > nav {
-    max-width: 95%;
+  max-width: 95%;
 }
 
 header > nav a {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 header .navItem {
-    line-height: 0.5;
-    margin: 15px 0;
-    padding: 0;
-    border-right: 1px solid darkgray;
-    flex: auto;
-    text-align: center;
+  line-height: 0.5;
+  margin: 15px 0;
+  padding: 0;
+  border-right: 1px solid darkgray;
+  flex: auto;
+  text-align: center;
 }
 
 header .navLink {
@@ -92,61 +92,62 @@ header .navLink {
 }
 
 .navItem a:hover {
-    color: #f72210;
+  color: #f72210;
 }
 
-header .navItem:nth-last-child(2), header .navItem:last-child {
-    border-right: none;
+header .navItem:nth-last-child(2),
+header .navItem:last-child {
+  border-right: none;
 }
 
 header .navItem span {
-    color: #999;
-    margin-right: 5px;
-    vertical-align: middle;
+  color: #999;
+  margin-right: 5px;
+  vertical-align: middle;
 }
 
 header .imgIcon {
-    background: center/contain no-repeat white;
-    width: 20px;
-    height: 20px;
-    clip: auto;
-    font-size: 0;
-    position: absolute;
+  background: center/contain no-repeat white;
+  width: 20px;
+  height: 20px;
+  clip: auto;
+  font-size: 0;
+  position: absolute;
 }
 
 @media screen and (max-width: 1024px) {
-    header > .row {
-        padding: 5px;
-    }
+  header > .row {
+    padding: 5px;
+  }
 
-    header .date {
-        display: none;
-    }
+  header .date {
+    display: none;
+  }
 
-    header .img-logo img {
-        height: 20px;
-        vertical-align: top;
-    }
+  header .img-logo img {
+    height: 20px;
+    vertical-align: top;
+  }
 
-    .link-container a {
-        font-size: 0.8rem;
-        margin-right: 3px;
-    }
+  .link-container a {
+    font-size: 0.8rem;
+    margin-right: 3px;
+  }
 
-    .link-container .btn {
-        padding: 1px 6px;
-    }
+  .link-container .btn {
+    padding: 1px 6px;
+  }
 
-    .link-container:after {
-        content: url("images/icons/nav.png");
-        vertical-align: middle;
-    }
+  .link-container:after {
+    content: url("images/icons/nav.png");
+    vertical-align: middle;
+  }
 
-    header nav {
-        display: none;
-    }
+  header nav {
+    display: none;
+  }
 }
 
 .outer-container > .row {
-    padding: 15px 30px;
+  padding: 15px 30px;
 }

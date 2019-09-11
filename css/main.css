@@ -24,7 +24,7 @@ body a {
     order: 3;
   }
 
-@media (min-width: 768px) {
+@media (max-width: 720px) {
 .order-md-1 {
     -ms-flex-order: 1;
     order: 1;
@@ -107,11 +107,7 @@ body a {
   color: #999999;
 }
 
-@media (min-width: 768px) {
-.culture-item {
-    width: 50%;
-  }
-}
+
 .flex-wrap {
     flex-wrap: wrap;
   }
@@ -120,17 +116,29 @@ body a {
     display: block;
   }
 
+  @media (max-width: 720px) {
+    .culture-stories {
+      max-width: 100%;
+    }
+
+  .culture-item {
+      width: 50%;
+      margin-bottom: 10px;
+    }
+  }
+
 .culture-item {
     padding-left: 10px;
     padding-right: 10px;
     width: 240.563px;
-    height: 478px;
+    height: 460px;
   }
 
 .culture-item img {
     display: block;
     background-color: #f0f0f0;
     width: 100%;
+    margin-top: 5px;
 }
 
 .culture-item .title {
@@ -147,23 +155,29 @@ body a {
 .culture-item .summary {
     font-size: 15px;
     color: rgba(39,39,39,.5);
-    margin-bottom: 10px;
 }
 
 .culture-item .tags {
     font-size: 13px;
-    font-weight: 300;
-    color: #272727;
+    font-weight: 100;
+    margin: 0;
+    margin-top: 5px;
 }
 
 .culture-item .tags a {
     display: inline-block;
+    color: #272727;
     background-color: #c2d4d7;
     padding-left: 6px;
     padding-right: 6px;
     margin-right: 6px;
-    margin-bottom: 6px;
     margin-top: 5px;
+}
+
+@media (max-width: 720px) {
+  .moreStoriesContainer {
+    margin-top: 10px;
+  }
 }
 
 .more-stories li, .opinions li, .latest-news li {
@@ -234,12 +248,28 @@ body a {
     font-size: 0.8rem;
 }
 
+/*@media (max-width: 720px) {
+  .latestImage img {
+      background-color: yellow;
+  }
+}
+*/
+
+.latestNewsContainer {
+  max-width: 100%;
+  margin: 0;
+}
+
 .latest-news img {
     height: 90px;
 }
 
 .latest-news li:first-child {
     border-top: none;
+}
+
+.list-group-item a {
+  text-align: left;
 }
 
 .signUpForNewsletter {
@@ -400,6 +430,17 @@ body a {
 .slideshows .caption a {
     font-size: 1.2rem;
     line-height: 1;
+}
+
+@media (max-width: 720px) {
+.categories .caption {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .categories .list-group li {
+    margin-top: 10px;
+  }
 }
 
 .categories h2 {

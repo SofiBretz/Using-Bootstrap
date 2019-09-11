@@ -1,3 +1,29 @@
+@media (max-width: 960px) {
+  footer .social ul {
+      display: inline-block;
+      margin: 0 2px;
+      font-size: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+  footer .social ul {
+      display: inline-block;
+      margin: 0 2px;
+      font-size: 10px;
+  }
+}
+
+  @media (max-width: 720px) {
+  small {
+    text-align: left;
+  }
+
+  footer .social {
+      text-align: left;
+  }
+}
+
 footer {
     padding: 20px 30px;
     border-top: 2px solid #f4f5f6;
@@ -20,13 +46,6 @@ footer .social li {
     display: inline-block;
     margin: 0 5px;
 }
-
-@media (min-width: 768px) {
-  footer .social li {
-      display: inline-block;
-      margin: 0 2px;
-      font-size: 12px;
-  }
 
   strong {
       font-weight: bold;

@@ -270,7 +270,7 @@ div {
   text-decoration: none;
 }
 
-#sticky-wrapper {
+.sticky-wrapper {
   position: sticky;
   top: 0;
 }
@@ -429,32 +429,32 @@ div {
   margin-top: 40px;
 }
 
-#subscribe-box {
+.subscribe-box {
   padding: 20px;
   background-color: #f4f5f6;
   margin-top: 10px;
 }
 
-#subscribe-box img {
+.subscribe-box img {
   float: left;
   margin-right: 20px;
 }
 
-#subscribe-box a {
+.subscribe-box a {
   font-size: 1.3rem;
   margin-bottom: 20px;
 }
 
-#subscribe-box h4 {
+.subscribe-box h4 {
   font-weight: bold;
 }
 
-#subscribe-box a:hover {
+.subscribe-box a:hover {
   text-decoration-color: #f72210;
   color: #000;
 }
 
-#subscribe-box .btn {
+.subscribe-box .btn {
   background-color: #f72210;
   font-size: 1rem;
   text-transform: uppercase;
@@ -464,12 +464,12 @@ div {
   margin-top: 10px;
 }
 
-#subscribe-box .btn:hover {
+.subscribe-box .btn:hover {
   background-color: #de1f0e;
   color: #fff;
 }
 
-#subscribe-box .btn-container {
+.subscribe-box .btn-container {
   margin-top: 20px;
 }
 

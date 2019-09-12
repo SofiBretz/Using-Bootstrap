@@ -5,22 +5,13 @@ body {
 }
 
 .outContainer {
-  margin: 0 20px;
+  margin: 0 50px;
   background-color: #fff;
 }
 
 .innerContainer {
   margin: 15px 30px;
-}
-
-@media screen and (max-width: 1326px) {
-  .outContainer {
-    margin: 0;
-  }
-
-  .inner-container {
-    margin: 15px;
-  }
+  width: 100%;
 }
 
 a {
@@ -31,8 +22,10 @@ a {
 /* Header */
 
 header {
+  display: block;
   color: #fff;
   border-bottom: 2px solid #f4f5f6;
+  width: 100%;
 }
 
 header > .row {
@@ -45,6 +38,47 @@ header > .row {
 header .col {
   padding-right: 0;
   padding-left: 0;
+}
+
+header > nav {
+  max-width: 95%;
+}
+
+header > nav a {
+  font-size: 1.1rem;
+}
+
+header .navItem {
+  line-height: 0.5;
+  margin: 15px 0;
+  padding: 0;
+  border-right: 1px solid darkgray;
+  flex: auto;
+  text-align: center;
+}
+
+header .navLink {
+  color: black;
+}
+
+header .navItem:nth-last-child(2),
+header .navItem:last-child {
+  border-right: none;
+}
+
+header .navItem span {
+  color: #999;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+header .imgIcon {
+  background: center/contain no-repeat white;
+  width: 20px;
+  height: 20px;
+  clip: auto;
+  font-size: 0;
+  position: absolute;
 }
 
 .img-logo svg {
@@ -70,27 +104,6 @@ header .col {
   border-radius: 0;
 }
 
-header > nav {
-  max-width: 95%;
-}
-
-header > nav a {
-  font-size: 1.1rem;
-}
-
-header .navItem {
-  line-height: 0.5;
-  margin: 15px 0;
-  padding: 0;
-  border-right: 1px solid darkgray;
-  flex: auto;
-  text-align: center;
-}
-
-header .navLink {
-  color: black;
-}
-
 .navItem a:hover {
   color: #f72210;
 }
@@ -99,31 +112,25 @@ header .navLink {
   display: none;
 }
 
-header .navItem:nth-last-child(2),
-header .navItem:last-child {
-  border-right: none;
-}
-
-header .navItem span {
-  color: #999;
-  margin-right: 5px;
-  vertical-align: middle;
-}
-
-header .imgIcon {
-  background: center/contain no-repeat white;
-  width: 20px;
-  height: 20px;
-  clip: auto;
-  font-size: 0;
-  position: absolute;
-}
-
 .outer-container > .row {
-  padding: 15px 30px;
+  padding: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1326px) {
+  .outContainer {
+    margin: 0;
+  }
+
+  .inner-container {
+    margin: 15px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  header {
+    margin-left: 30px;
+  }
+
   header > .row {
     padding: 5px;
   }
@@ -154,9 +161,7 @@ header .imgIcon {
   header nav {
     display: none;
   }
-}
 
-@media screen and (max-width: 960px) {
   .menuHeader i {
     display: flex;
     font-size: 25px;

@@ -5,13 +5,12 @@ body {
 }
 
 .outContainer {
-  margin: 0 50px;
+  margin: 0 30px 0 30px;
   background-color: #fff;
 }
 
 .innerContainer {
-  margin: 15px 30px;
-  width: 100%;
+  margin: 15px 15px;
 }
 
 a {
@@ -127,6 +126,11 @@ header .imgIcon {
 }
 
 @media screen and (max-width: 960px) {
+
+  .outContainer {
+    margin: 0 30px 0 30px;
+  }
+
   header {
     margin-left: 30px;
   }
@@ -166,5 +170,14 @@ header .imgIcon {
     display: flex;
     font-size: 25px;
     color: #cccccc;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .outContainer {
+    margin: 0 30px 0 30px;
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 }
